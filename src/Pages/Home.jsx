@@ -6,7 +6,7 @@ import img3 from '../img/img3.jpeg';
 import img4 from '../img/img4.jpeg';
 import img5 from '../img/img5.jpeg';
 import img6 from '../img/img6.jpeg';
-
+import img7 from '../img/burger.jpeg';
 
 const Home = () => {
     const defaultRecipes = [
@@ -57,7 +57,7 @@ const Home = () => {
         },
         {
             id: Math.floor(Math.random() * 10000),
-            img: img6,
+            img: img7,
             title: 'Burger',
             ingredients: 'The main ingredients are Burger Buns, Cheese, Egg',
             instruction: '1.Prepare the Ingredients 2.Make the Burger Patties 3.Preheat the Grill or Pan 4.Cook the Patties 5.Toast the Buns 6.Assemble the Burgers 7.Serve.',
